@@ -16,6 +16,7 @@ public class StringKnowledge {
         }
 
     }
+
     public static boolean endOther(String a, String b) {
         if (a.toLowerCase().contains(b.toLowerCase())) {
             return a.toLowerCase().indexOf(b.toLowerCase()) == (a.length() - b.length());

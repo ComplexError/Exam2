@@ -16,6 +16,7 @@ public class ArrayKnowledge {
         int step = sc.nextInt();
         System.out.println(Arrays.toString(generateArrayWithBounds(start, end, step)));
     }
+
     public static char[] stringToArray(String string) {
         char[] charArray = new char[string.length()];
         for (int i = 0; i < string.length(); i++) {
@@ -23,6 +24,7 @@ public class ArrayKnowledge {
         }
         return charArray;
     }
+    
     public static int[] generateArrayWithBounds(int start, int end, int step) {
         //this part was a little annoying
         double bounds = ((double) (end - start) / step);
